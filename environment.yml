@@ -1,0 +1,15 @@
+
+name: ml-labeling
+
+channels:
+- pyviz/label/dev
+- conda-forge
+
+dependencies:
+    - nomkl
+    - numpy
+    - pandas=0.24
+    - bokeh=1.4.0
+    - holoviews=1.13.0a20
+    - geoviews=1.7.0a6
+    - panel=0.7.1a2
